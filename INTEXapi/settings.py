@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'INTEXapi.wsgi.application'
 DATABASES = {
         'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'intex',
-        'USER': 'admin',
-        'PASSWORD': 'pass',
-        'HOST': 'localhost',
-        'PORT': '', #5432
+        'NAME': 'intex123',
+        'USER': 'postgres',
+        'PASSWORD': 'Zy8CnBpbku84VwdWiNiM',
+        'HOST': 'intex123.c8pnsknyzlle.us-west-2.rds.amazonaws.com',
+        'PORT': '4532',
     }
 }
 
